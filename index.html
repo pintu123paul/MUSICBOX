@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+        <title>JukeBox</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="StyleSheet" type="text/css" href= "style.css">
+
+	</head>
+	<body>
+    <audio id="audio1" controls>
+    </audio>
+        
+        <h1> Music Box</h1>
+        
+        
+	<div id = "wrapper">
+    <button type="prevBtn" onclick="juke.loadPrev()"> <img src = "4.png" /> Prev</button>
+    <div class= "playBtn"><button type="playBtn" onclick="juke.playIt()"> <img src = "1.png" /> Play</button></div>
+    <button type="stopBtn" onclick="juke.stopIt()"><img src = "2.png" />  Stop</button>
+    <button type="nextBtn" onclick="juke.loadNext()"><img src = "5.png" />Next</button>
+     <button type="submitBtn" onclick="juke.addSong()"><img src= "7.png"/>Add Song</button>
+    
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $(".stopBtn").click(function(){
+                    $("playBtn").fadeOut()
+        });
+                $(".play"Btn).click(function(){
+                    $("div").fadeIn();
+        });
+            });
+        </script>
+        </div>
+	
+	<div id ="textbox">
+        
+         <input id="addSong" value="Input song URL"></input>
+</div>
+
+	
+	
+	<div id="animated-gif-container"></div>    
+    
+     
+       <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js">
+    </script>
+   <script type="text/javascript" src="app.js"></script>
+      
+	</body>
+</html>

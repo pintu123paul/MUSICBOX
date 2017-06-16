@@ -1,0 +1,58 @@
+
+audio { 
+   display:none;
+}
+
+body{
+    background-image:url(8.jpg);
+    background-position: top;
+    
+}
+h1{
+    font-family: courier;
+    text-align: center;
+    letter-spacing: 4px;
+    padding-bottom: 20px;
+    
+}
+	
+
+#animated-gif-container {
+
+  width:900px;
+  height:250px;    
+  position: relative;
+  background-color: fff;
+  color: black;
+  float: center;
+  opacity: .3;
+  text-align: center;
+  display: block;
+
+    margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  background: url(11.gif) no-repeat center center; 
+}
+
+#wrapper{
+    font-family: courier;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+}
+     
+button{
+    width: 150px;
+    height: 150px;
+    border: none;
+    background-color: white;
+}
+#textbox{
+    text-align: center;
+    font-family: courier;
+}
+
+
+
